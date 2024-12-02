@@ -1,0 +1,18 @@
+\hypertarget{modCipher_8h_source}{}\doxysection{mod\+Cipher.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <stdexcept>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{classcipher__error}{cipher\_error}} : \textcolor{keyword}{public} std::runtime\_error \{}
+\DoxyCodeLine{16 \textcolor{keyword}{public}:}
+\DoxyCodeLine{21     \textcolor{keyword}{explicit} \mbox{\hyperlink{classcipher__error_aac662e216a84bfeb873303c7b88d029e}{cipher\_error}}(\textcolor{keyword}{const} std::string\& what\_arg) : std::runtime\_error(what\_arg) \{\}}
+\DoxyCodeLine{22 \};}
+\DoxyCodeLine{28 std::string prepareText(\textcolor{keyword}{const} std::string\& text);}
+\DoxyCodeLine{35 std::string coder(\textcolor{keywordtype}{int} key, \textcolor{keyword}{const} std::string\& text);}
+\DoxyCodeLine{42 std::string decoder(\textcolor{keywordtype}{int} key, \textcolor{keyword}{const} std::string\& text);}
+\DoxyCodeLine{49 \textcolor{keywordtype}{int} getValidKey(\textcolor{keywordtype}{int} key, \textcolor{keyword}{const} std::string\& text);}
+
+\end{DoxyCode}
