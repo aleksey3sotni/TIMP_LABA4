@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.29)  8 DEC 2024 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.29)  8 DEC 2024 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1168,7 +1168,7 @@ nclusion: multiple pdfs with page group included in a single page
 File: classcipher__error__inherit__graph.pdf Graphic file (type pdf)
 <use classcipher__error__inherit__graph.pdf>
 Package pdftex.def Info: classcipher__error__inherit__graph.pdf  used on input 
-line 19.
+line 18.
 (pdftex.def)             Requested size: 203.0pt x 156.0064pt.
  <./classcipher__error__coll__graph.pdf
 
@@ -1179,28 +1179,28 @@ usion: multiple pdfs with page group included in a single page
 File: classcipher__error__coll__graph.pdf Graphic file (type pdf)
 <use classcipher__error__coll__graph.pdf>
 Package pdftex.def Info: classcipher__error__coll__graph.pdf  used on input lin
-e 29.
+e 27.
 (pdftex.def)             Requested size: 203.0pt x 156.0064pt.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-5.
+3.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 35.
+(Font)              scaled to size 8.99994pt on input line 33.
 
 
 LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
-(Font)              using `T2A/phv/m/n' instead on input line 36.
+(Font)              using `T2A/phv/m/n' instead on input line 34.
 
 [7]
 
 LaTeX Font Warning: Font shape `T2A/pcr/b/n' undefined
-(Font)              using `T2A/pcr/m/n' instead on input line 48.
+(Font)              using `T2A/pcr/m/n' instead on input line 46.
 
 
 LaTeX Font Warning: Font shape `T2A/pcr/m/it' undefined
-(Font)              using `T2A/pcr/m/n' instead on input line 49.
+(Font)              using `T2A/pcr/m/n' instead on input line 47.
 
 ) (./classCode.tex [8]
 Overfull \vbox (16.46979pt too high) has occurred while \output is active []
@@ -1246,17 +1246,17 @@ File: modCipher_8h__incl.pdf Graphic file (type pdf)
 Package pdftex.def Info: modCipher_8h__incl.pdf  used on input line 17.
 (pdftex.def)             Requested size: 350.0pt x 153.80824pt.
 
-Underfull \hbox (badness 10000) detected at line 34
+Underfull \hbox (badness 10000) detected at line 32
 [][][]
  []
 
 [13]
-Underfull \hbox (badness 10000) detected at line 38
+Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 42
+Underfull \hbox (badness 10000) detected at line 38
 [][][]
  []
 
@@ -1273,10 +1273,10 @@ Package rerunfilecheck Info: File `refman.out' has not changed.
 (rerunfilecheck)             Checksum: BA69187AD9F9B66A3DA978D9BDBEDBDC;5056.
  ) 
 Here is how much of TeX's memory you used:
- 19885 strings out of 477525
- 320334 string characters out of 5832488
+ 19884 strings out of 477525
+ 320307 string characters out of 5832488
  1863330 words of memory out of 5000000
- 39590 multiletter control sequences out of 15000+600000
+ 39589 multiletter control sequences out of 15000+600000
  530319 words of font info for 71 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  101i,14n,117p,461b,755s stack positions out of 10000i,1000n,20000p,200000b,200000s
