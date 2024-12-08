@@ -1,0 +1,165 @@
+\hypertarget{classCode}{}\doxysection{Класс Code}
+\label{classCode}\index{Code@{Code}}
+
+
+Класс для шифрования и дешифрования текста.  
+
+
+
+
+{\ttfamily \#include $<$mod\+Cipher.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCode_a9abfacc671608c0127fbe04115b1ab4d}\label{classCode_a9abfacc671608c0127fbe04115b1ab4d}} 
+{\bfseries Code} ()=delete
+\begin{DoxyCompactList}\small\item\em Удалённый конструктор по умолчанию. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCode_a978d5733d54680b2a7629e84b5f9704a}{Code}} (int skey, const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Конструктор с заданным ключом и текстом. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCode_a43a0a463dadd8ccd4e583ba0a0fe8efb}{encryption}} (const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Шифрует текст. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCode_a7a88a2bb7d3253ed3ead876175325139}{decrypt}} (const std\+::string \&text, const std\+::string \&open\+\_\+text)
+\begin{DoxyCompactList}\small\item\em Дешифрует текст. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classCode_a7d365bf2c171ba829053676b249da19b}{get\+Valid\+Key}} (int \mbox{\hyperlink{classCode_ad3ae43f53b4e2512787809c3d78442ac}{key}}, const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Проверяет и возвращает корректный ключ. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCode_a6eea33a9feb7ff07617c12ad80696555}{get\+Valid\+Open\+Text}} (const std\+::string \&s)
+\begin{DoxyCompactList}\small\item\em Проверяет и возвращает корректный открытый текст. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCode_ac848ebd8afcd2d8cf3ee53fc740e01ca}{get\+Valid\+Cipher\+Text}} (const std\+::string \&s, const std\+::string \&open\+\_\+text)
+\begin{DoxyCompactList}\small\item\em Проверяет и возвращает корректный зашифрованный текст. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCode_ad3ae43f53b4e2512787809c3d78442ac}\label{classCode_ad3ae43f53b4e2512787809c3d78442ac}} 
+int {\bfseries key}
+\begin{DoxyCompactList}\small\item\em Ключ для шифрования \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для шифрования и дешифрования текста. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classCode_a978d5733d54680b2a7629e84b5f9704a}\label{classCode_a978d5733d54680b2a7629e84b5f9704a}} 
+\index{Code@{Code}!Code@{Code}}
+\index{Code@{Code}!Code@{Code}}
+\doxysubsubsection{\texorpdfstring{Code()}{Code()}}
+{\footnotesize\ttfamily Code\+::\+Code (\begin{DoxyParamCaption}\item[{int}]{skey,  }\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Конструктор с заданным ключом и текстом. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em skey} & Ключ шифрования. \\
+\hline
+{\em text} & Текст для шифрования. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classCode_a7a88a2bb7d3253ed3ead876175325139}\label{classCode_a7a88a2bb7d3253ed3ead876175325139}} 
+\index{Code@{Code}!decrypt@{decrypt}}
+\index{decrypt@{decrypt}!Code@{Code}}
+\doxysubsubsection{\texorpdfstring{decrypt()}{decrypt()}}
+{\footnotesize\ttfamily std\+::string Code\+::decrypt (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text,  }\item[{const std\+::string \&}]{open\+\_\+text }\end{DoxyParamCaption})}
+
+
+
+Дешифрует текст. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em text} & Зашифрованный текст. \\
+\hline
+{\em open\+\_\+text} & Открытый текст. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Дешифрованный текст. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCode_a43a0a463dadd8ccd4e583ba0a0fe8efb}\label{classCode_a43a0a463dadd8ccd4e583ba0a0fe8efb}} 
+\index{Code@{Code}!encryption@{encryption}}
+\index{encryption@{encryption}!Code@{Code}}
+\doxysubsubsection{\texorpdfstring{encryption()}{encryption()}}
+{\footnotesize\ttfamily std\+::string Code\+::encryption (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Шифрует текст. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em text} & Текст для шифрования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Зашифрованный текст. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCode_ac848ebd8afcd2d8cf3ee53fc740e01ca}\label{classCode_ac848ebd8afcd2d8cf3ee53fc740e01ca}} 
+\index{Code@{Code}!getValidCipherText@{getValidCipherText}}
+\index{getValidCipherText@{getValidCipherText}!Code@{Code}}
+\doxysubsubsection{\texorpdfstring{getValidCipherText()}{getValidCipherText()}}
+{\footnotesize\ttfamily std\+::string Code\+::get\+Valid\+Cipher\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{const std\+::string \&}]{open\+\_\+text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Проверяет и возвращает корректный зашифрованный текст. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em s} & Исходная строка. \\
+\hline
+{\em open\+\_\+text} & Открытый текст. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Корректированный зашифрованный текст. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCode_a7d365bf2c171ba829053676b249da19b}\label{classCode_a7d365bf2c171ba829053676b249da19b}} 
+\index{Code@{Code}!getValidKey@{getValidKey}}
+\index{getValidKey@{getValidKey}!Code@{Code}}
+\doxysubsubsection{\texorpdfstring{getValidKey()}{getValidKey()}}
+{\footnotesize\ttfamily int Code\+::get\+Valid\+Key (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Проверяет и возвращает корректный ключ. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em key} & Исходный ключ. \\
+\hline
+{\em text} & Текст для шифрования или дешифрования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Корректированный ключ. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCode_a6eea33a9feb7ff07617c12ad80696555}\label{classCode_a6eea33a9feb7ff07617c12ad80696555}} 
+\index{Code@{Code}!getValidOpenText@{getValidOpenText}}
+\index{getValidOpenText@{getValidOpenText}!Code@{Code}}
+\doxysubsubsection{\texorpdfstring{getValidOpenText()}{getValidOpenText()}}
+{\footnotesize\ttfamily std\+::string Code\+::get\+Valid\+Open\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Проверяет и возвращает корректный открытый текст. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em s} & Исходная строка. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Корректированный открытый текст. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{modCipher_8h}{mod\+Cipher.\+h}}\end{DoxyCompactItemize}

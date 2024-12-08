@@ -2,5 +2,35 @@
 
   \item {cipher\_error}, \hyperpage{7}
     \subitem {cipher\_error}, \hyperpage{8}
+  \item {Code}, \hyperpage{8}
+    \subitem {Code}, \hyperpage{9}
+    \subitem {decrypt}, \hyperpage{10}
+    \subitem {encryption}, \hyperpage{10}
+    \subitem {getValidCipherText}, \hyperpage{10}
+    \subitem {getValidKey}, \hyperpage{11}
+    \subitem {getValidOpenText}, \hyperpage{11}
+
+  \indexspace
+
+  \item {decrypt}
+    \subitem {Code}, \hyperpage{10}
+
+  \indexspace
+
+  \item {encryption}
+    \subitem {Code}, \hyperpage{10}
+
+  \indexspace
+
+  \item {getValidCipherText}
+    \subitem {Code}, \hyperpage{10}
+  \item {getValidKey}
+    \subitem {Code}, \hyperpage{11}
+  \item {getValidOpenText}
+    \subitem {Code}, \hyperpage{11}
+
+  \indexspace
+
+  \item {modCipher.h}, \hyperpage{13}
 
 \end{theindex}
